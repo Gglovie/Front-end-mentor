@@ -46,51 +46,6 @@ function validateForm(e) {
           document.getElementsByTagName("input")[i+3].style.border = "2px solid red";
       
         }
-       
-      // else if(outputs[3]!=''){
-        // document.getElementsByTagName("svg")[3].style.display = "none";
-        // document.getElementsByTagName("small")[3].style.display = "none";
-        // document.getElementsByTagName("input")[3].style.border = "2px solid red";
-
-      // }
-
-      
-
-    //     document.getElementsByTagName("svg")[1].style.display = "block";
-    //     document.getElementsByTagName("small")[1].style.display = "block";
-    //     document.getElementsByTagName("input")[1].style.border = "2px solid red";
-
-    //     document.getElementsByTagName("svg")[2].style.display = "block";
-    //     document.getElementsByTagName("small")[2].style.display = "block";
-    //     document.getElementsByTagName("input")[2].style.border = "2px solid red";
-
-    //     document.getElementsByTagName("svg")[3].style.display = "block";
-    //     document.getElementsByTagName("small")[3].style.display = "block";
-    //     document.getElementsByTagName("input")[3].style.border = "2px solid red";
-    //     return false;
-    //   }
-    // else if(outputs[1]== '' && outputs[2]== '' && outputs[3]== ''){
-    //   document.getElementsByTagName("svg")[1].style.display = "block";
-    //   document.getElementsByTagName("small")[1].style.display = "block";
-    //   document.getElementsByTagName("input")[1].style.border = "2px solid red";
-
-    //   document.getElementsByTagName("svg")[2].style.display = "block";
-    //   document.getElementsByTagName("small")[2].style.display = "block";
-    //   document.getElementsByTagName("input")[2].style.border = "2px solid red";
-
-    //   document.getElementsByTagName("svg")[3].style.display = "block";
-    //   document.getElementsByTagName("small")[3].style.display = "block";
-    //   document.getElementsByTagName("input")[3].style.border = "2px solid red";
-    //   return false;
-
-
-    // }
-    // else if(!outputs[2].match(mail)){
-    //   document.getElementsByTagName("svg")[2].style.display = "block";
-    //   document.getElementsByTagName("small")[2].style.display = "block";
-    //   document.getElementsByTagName("input")[2].style.border = "2px solid red";
-
-  
     
     
 }
