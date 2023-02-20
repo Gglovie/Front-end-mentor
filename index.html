@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="active.js">document.documentElement.className += 'js';</script>
+    <title>Frontend project</title>
+</head>
+<body>
+
+  <form onclick="validateForm()" name="form" class="form">
+    <div class="col">
+          <div class="text">
+            <h2>Learn to code by<br> watching others</h2>
+            <p>See how experienced developer solve problem in real time
+              <br>Watching scripted tutorials is great but understanding how<br> developers
+              think is invaluable
+            </p>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div class="try">
+            <h4>Try it free 7 days and $20/mo thereafter</h4>
+          </div>
+          <div class="color">
+            <label for="firstname">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="svgi">
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+              <input class="sec" type="text" name="fname" placeholder="First name" id="fname" style="margin-top: 5%;">
+              <small>First Name cannot be empty</small>
+            </label>
+            <label for="lname">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+              <input class="sec" type="text" name="lname" placeholder="Last name" id="lname">
+              <small>Last name cannot be empty</small>
+            </label>
+            <label for="email">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+              <input class="sec" type="text" name="email" placeholder="Email" id="email">
+              <small>This doesn't look like an email</small>
+            </label>
+            <label for="psw">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="svg">
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+              <input class="sec" type="password" name="password" placeholder="Password" id="password">
+              <small>Password cannot be empty</small>
+            </label>
+            <input type="button" onclick="validateForm()" value="CLAIM YOUR FREE TRIAL" class="button"
+            style="border: none; margin-top: 5%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold; color: white; background-color:  hsl(154, 59%, 51%); padding: 15px; box-shadow: 5px 10px 8px rgba(0,0,0,0.1);">
+            
+            <p class="terms" style="color: rgba(126, 120, 120, 0.623);"> By clicking the button you agree to our <span style="color:rgb(255, 128, 128); font-weight: bold;">Terms and Services</span></p>
+          </div>
+      
+        </div>
+      </form>
+      <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+        Coded by <a href="">G-ROCK</a>
+      </footer>
+</body>
+</html>
